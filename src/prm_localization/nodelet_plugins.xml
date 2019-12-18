@@ -1,0 +1,7 @@
+<library path="lib/libglobalmap_provider_nodelet">
+<class name="prm_localization/GlobalmapProviderNodelet" type="globalmap_ns::GlobalmapProviderNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/librt_localization_nodelet">
+<class name="prm_localization/RealTime_Localization" type="rt_localization_ns::RealTime_Localization" base_class_type="nodelet::Nodelet" />
+</library>
